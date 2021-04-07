@@ -44,6 +44,13 @@ public class User {
         this.country = country;
     }
 
+    public User(String name, String email, String phone, String country) {
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+        this.country = country;
+    }
+
     @Override
     public String toString() {
         return "User{" +
